@@ -1,0 +1,13 @@
+export PATH=$PATH:/root/enpower/llvm/llvm_37/install/bin
+
+export PKG_CONFIG_PATH=/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install/lib/pkgconfig:/root/enpower/pocl/pocl-git-direct/install/lib/pkgconfig:/root/enpower/mali/sdk/Mali_OpenCL_SDK_v1.1.0/include:/root/enpower/mali/sdk/Mali_OpenCL_SDK_v1.1.0/common
+
+export LD_LIBRARY_PATH=/root/enpower/mali/driver/userspacebindrv/fbdev/fbdev:/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install/lib:/root/enpower/pocl/pocl-git-direct/install/lib:/root/enpower/mali/sdk/Mali_OpenCL_SDK_v1.1.0/lib:/root/enpower/mali/sdk/Mali_OpenCL_SDK_v1.1.0/common
+
+export OPENCL_VENDOR_PATH=/etc/OpenCL/vendors
+
+export export OCL_ICD_VENDORS=/etc/OpenCL/vendors
+
+CC=clang
+
+CXX=clang++
